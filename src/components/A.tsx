@@ -14,6 +14,7 @@ const Component = () => {
     setSelectedColor(randomColor ?? "red");
   };
   return (
+
     <React.Fragment>
       <div
         className={clsx("h-12 w-12 rounded-full", {
